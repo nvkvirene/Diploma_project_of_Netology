@@ -75,7 +75,7 @@ public class DataHelper {
     }
 
     public static String getCVCFaker() {
-        return String.valueOf(fakerEn.number().numberBetween(100, 999));
+        return fakerEn.numerify("###");
     }
 
 
