@@ -2,14 +2,14 @@
 ***
 В результате автоматизации тестирования комплексного сервиса, взаимодействующего с СУБД и API Банка согласно [плану тестирования](https://github.com/nvkvirene/qa-nvkv-diploma/blob/main/documentation/Plan.md), основанному на предварительном анализе исследовательного тестирования, с применением двух баз данных  MySQL и PostgreSQL  получено:
 
-- [общее колличество тест-кейсов: 76 шт](https://github.com/nvkvirene/qa-nvkv-diploma/pic/total_number_of_test_cases.png)
-- [успешных тест-кейсов: 81.57 % (62 тест-кейса)](https://github.com/nvkvirene/qa-nvkv-diploma/pic/test.png)
-- [не успешных тест-кейсов: 18.42 % (14 тест-кейсов)](https://github.com/nvkvirene/qa-nvkv-diploma/pic/failed_test_cases.png)    
+- [общее колличество тест-кейсов: 76 шт](https://github.com/nvkvirene/qa-nvkv-diploma/blob/main/pic/total%20number%20of%20test%20cases.png)
+- [успешных тест-кейсов: 81.57 % (62 тест-кейса)](https://github.com/nvkvirene/qa-nvkv-diploma/blob/main/pic/test.png)
+- [не успешных тест-кейсов: 18.42 % (14 тест-кейсов)](https://github.com/nvkvirene/qa-nvkv-diploma/blob/main/pic/failed%20test%20cases.png)    
 
 ### Oбщие рекомендации по результатам тестирования:
 
-* Оформлены баг-репорты на тесты с статусе Failed в разделе issue проекта на GitHub
+* Оформлены баг-репорты на тесты в статусе Failed в разделе issue проекта на GitHub
 * Отсутствие тестовых атрибутов в HTML-элементах ухудшает устойчивость авто-тестов
 * Ошибку в полях "Неверный формат" необходимо детализировать
 * Продолжительность отправки данных и получения уведомления о результате операции не стабильна и варьируется [от 0 сек до
-  22 сек](https://github.com/nvkvirene/qa-nvkv-diploma/pic/status_and_duration.png)
+  22 сек](https://github.com/nvkvirene/qa-nvkv-diploma/blob/main/pic/status%20and%20duration.png)
