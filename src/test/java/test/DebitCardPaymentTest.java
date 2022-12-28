@@ -14,15 +14,14 @@ import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.*;
 
 class DebitCardPaymentTest {
-    HomePage mainPage = new HomePage();
-
-    CardPaymentPage debitCardPage = new CardPaymentPage();
+    HomePage mainPage;
+    CardPaymentPage debitCardPage;
 
     @BeforeEach
     void shouldOpenPage() {
         DbHelper.cleanTables();
-        open("http://localhost:8080");
-
+        mainPage = open("http://localhost:8080", HomePage.class);
+        debitCardPage = mainPage.clickDebitCard();
     }
 
     @BeforeAll

@@ -23,8 +23,7 @@
 
 ### Настройка среды тестирования
 
-1. Docker
-   Desktop [(руководство по установке)](https://github.com/netology-code/aqa-homeworks/blob/master/docker/installation.md)
+1. Docker Desktop [(руководство по установке)](https://github.com/netology-code/aqa-homeworks/blob/master/docker/installation.md)
 2. IntelliJ IDEA [(официальная страница с бесплатной версией)](https://www.jetbrains.com/idea/download/#section=windows)
 3. Google Chrome
 
@@ -90,7 +89,6 @@
 
 ### Отчетная документация
 
-* [План автоматизации тестирования веб-формы сервиса покупки тура](https://github.com/nvkvirene/qa-diploma/blob/main/documentation/Plan.md)
-* Отчётные документы по итогам тестирования
-* Отчётные документы по итогам автоматизации
-
+* [План автоматизации тестирования веб-формы сервиса покупки тура](https://github.com/nvkvirene/qa-nvkv-diploma/blob/main/documentation/Plan.md)
+* [Отчёт по итогам тестирования](https://github.com/nvkvirene/qa-nvkv-diploma/blob/main/documentation/Report.md)
+* [Отчёт по итогам автоматизации](https://github.com/nvkvirene/qa-nvkv-diploma/blob/main/documentation/Summary.md)
